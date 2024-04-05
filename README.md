@@ -1,1 +1,1 @@
-# CPSC-583-InformationVisualizationProject
+# CPSC583-InformationVisualizationProject
