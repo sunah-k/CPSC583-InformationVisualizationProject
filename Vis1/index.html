@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CPSC 583: Project</title>
+    <link rel="stylesheet" type="text/css" href="vis1.css" />
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script type="text/javascript" src="vis1.js"></script>
+</head>
+<body>
+<h1>SONG POPULARITY TRAITS</h1>
+<div id="div_caption">
+    <p> This visualization shows data on the popularity of the songs and their specific traits from Spotify.<br>
+        The traits shown here are danceability, energy, acousticness, valence, tempo, and mode.<br>
+        The first 5 traits aare shown by rings around each node, and the mode is shown by the colour of the circle of a node <br>
+        <br>
+        Danceability: How suitable a track is for dancing <br>
+        Energy: Perceptual measure of intensity and activity, eg. more energy tends to feel faster, louder, and noisy <br>
+        Acousticness: The confidence measure of whether a track is acoustic<br>
+        Valence: Musical positiveness of a track, eg. happy vs. sad sounding<br>
+        Tempo: Overal estimated tempo of a track in beats per minute (BPM) <br>
+        Mode: the modality of the song which is either major or minor<br>
+    </p>
+</div>
+<div id="div_legend">
+    <svg id="legend"></svg>
+</div>
+<div id="div_visuals">
+    <svg id="vis" class="svg_boxes"></svg>
+</div>
+<div id = "div_labels"></div>
+<div id = "div_filters">
+    <svg id="filters"></svg>
+</div>
+</body>
+</html>
